@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bgContainer {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    padding: 30px;
+    margin: 15px;
+  }
+}
+span {
+  color: #ffd569;
+}
+.heading {
+  color: #000000;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.fruitContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .fruitContainer {
+    flex-direction: row;
+    padding: 50px;
+  }
+}
+.topFruit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomFruit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 120px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 300px;
+  }
+}
+.button {
+  margin: 20px;
+  height: 34px;
+  width: 100px;
+  background-color: #007bff;
+  font-size: 15px;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+}
