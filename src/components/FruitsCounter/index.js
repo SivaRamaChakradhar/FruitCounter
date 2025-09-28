@@ -14,11 +14,9 @@ class FruitCounter extends Component {
   }
 
   onBananaEat = () => {
-    this.setState(prevState => {
-      return {
-        bananaCount: prevState.bananaCount + 1,
-      }
-    })
+    this.setState(prevState => ({
+      bananaCount: prevState.bananaCount + 1,
+    }))
   }
 
   render() {
